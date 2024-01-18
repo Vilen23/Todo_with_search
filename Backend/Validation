@@ -1,0 +1,10 @@
+const zod = require('zod');
+
+const valid = zod.object({
+    title:zod.string(),
+    interest:zod.string()
+})
+
+module.exports = {
+    valid
+}
